@@ -1,0 +1,63 @@
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#title{
+    color: rgb(120, 80, 17);
+    font-weight: bold;
+    font-size: 44px;
+    margin-top: 20vh;
+}
+body{
+    background-color: rgb(250, 241, 231);
+}
+.number{
+    margin-top: 5vh;
+}
+.digit{
+    font-size: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+#btn1{
+    font-size: 25px;
+    margin: 15px;
+    background-color: rgb(59, 59, 214);
+}
+#btn2{
+    font-size: 25px;
+    margin: 15px;
+    background-color: rgb(184, 28, 28);
+}
+#btn3{
+    font-size: 25px;
+    margin: 15px;
+  background: violet
+}
+@media only screen and (max-width: 600px) {
+   .digit{
+    font-size: 35px;
+    padding: 5px;
+    margin: 5px;
+   }
+   .button{
+    font-size: 25px;
+    padding: 2px;
+    margin: 2px;
+   }
+  }
+  @media only screen and (max-width: 350px){
+    .digit{
+        font-size: 30px;
+        padding: 2px;
+        margin: 2px;
+       }
+       .button{
+        font-size: 15px;
+      
+        padding: 1px;
+        margin: 1px;
+       }
+  }
